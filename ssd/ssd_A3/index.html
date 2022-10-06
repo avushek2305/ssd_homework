@@ -14,22 +14,43 @@
     </header>
 
 
-    <main class="flex-container">
+    <main>
 
-        <!-- vulture side -->
-        <div class = "div1 flex-container">
-            <div class="div4" id="dv1" draggable="true" ondragstart="drag(event)"  >
-                <svg width = "100" height = "100">
-                    <circle draggable="true" ondragstart="drag(event)" id="drag1" cx="50" cy="50" r="25" stroke="green" stroke-width="4" fill="yellow" />
-                </svg>  
+        
+        <div class=" game ">
+            <!-- vulture side -->
+            <div class = "div1 ">
+
+            
+                <div id="v1" class="circle" draggable="true" ondragstart="drag(event)"></div>
+                
+            </div>
+            <!-- crow side -->
+            <div class = "div3 ">
+        
+                <div id="c1" class="crows" draggable="true" ondragstart="drag(event)"></div>
+                <div id="c2" class="crows" draggable="true" ondragstart="drag(event)"></div>
+                <div id="c3" class="crows" draggable="true" ondragstart="drag(event)"></div>
+                <div id="c4" class="crows" draggable="true" ondragstart="drag(event)"></div>
+                <div id="c5" class="crows" draggable="true" ondragstart="drag(event)"></div>
+                <div id="c6" class="crows" draggable="true" ondragstart="drag(event)"></div>
+                <div id="c7" class="crows" draggable="true" ondragstart="drag(event)"></div>
+            
+        </div>
+            <!-- Dead side -->
+            <div class="captured">
+
             </div>
         </div>
-        <div class="div2" ondrop="drop(event)" ondragover="allowDrop(event)">
+        
+        
+
+        <div class="div2" >
 
             <svg width="800" height="800">
                <polygon points="100,300 700,300 200,700 400,100 600,700" style="fill:rgb(172, 125, 125);stroke:rgb(250, 15, 66);stroke-width:2.5 "/>
                
-                <circle  id="dv2" cx="600" cy="700" r="25" stroke="green" stroke-width="4" fill="yellow" />
+                <!-- <circle  id="dv2" cx="600" cy="700" r="25" stroke="green" stroke-width="4" fill="yellow" />
                 <circle cx="200" cy="700" r="25" stroke="green" stroke-width="4" fill="yellow" />
                 <circle cx="100" cy="300" r="25" stroke="green" stroke-width="4" fill="yellow" />
                 <circle cx="400" cy="100" r="25" stroke="green" stroke-width="4" fill="yellow" />
@@ -39,9 +60,22 @@
                 <circle cx="285" cy="455" r="25" stroke="green" stroke-width="4" fill="yellow" />
                 <circle cx="330" cy="300" r="25" stroke="green" stroke-width="4" fill="yellow" />
                 <circle cx="470" cy="300" r="25" stroke="green" stroke-width="4" fill="yellow" />
+
+             -->
                
               
               </svg>
+
+              <div id="d1" class="circle" draggable="true" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+              <div id="d2" class="circle" draggable="true" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+              <div id="d3" class="circle" draggable="true" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+              <div id="d4" class="circle" draggable="true" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+              <div id="d5" class="circle" draggable="true" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+              <div id="d6" class="circle" draggable="true" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+              <div id="d7" class="circle" draggable="true" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+              <div id="d8" class="circle" draggable="true" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+              <div id="d9" class="circle" draggable="true" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+              <div id="d10" class="circle" draggable="true" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
               
             
 
@@ -49,33 +83,9 @@
 
         </div>
 
-        <div class = "div1 flex-container">
-            <div class="flex-container"> 
-             <div class="div3">
-                <svg width = "100" height = "100">
-                    <circle cx="50" cy="50" r="25" stroke="green" stroke-width="4" fill="yellow" />
-                </svg>
-            </div>
-            <div class="div3"><svg width = "100" height = "100">
-                    <circle cx="50" cy="50" r="25" stroke="green" stroke-width="4" fill="yellow" />
-                </svg></div>
-            <div class="div3"><svg width = "100" height = "100">
-                    <circle cx="50" cy="50" r="25" stroke="green" stroke-width="4" fill="yellow" />
-                </svg></div>
-            <div class="div3"><svg width = "100" height = "100">
-                    <circle cx="50" cy="50" r="25" stroke="green" stroke-width="4" fill="yellow" />
-                </svg></div>
-            <div class="div3"><svg width = "100" height = "100">
-                    <circle cx="50" cy="50" r="25" stroke="green" stroke-width="4" fill="yellow" />
-                </svg></div>
-            <div class="div3"><svg width = "100" height = "100">
-                    <circle cx="50" cy="50" r="25" stroke="green" stroke-width="4" fill="yellow" />
-                </svg></div>
-            <div class="div3"><svg width = "100" height = "100">
-                    <circle cx="50" cy="50" r="25" stroke="green" stroke-width="4" fill="yellow" />
-                </svg></div></div>
-           
-        </div>
+        
+        
+     
 
         
 
